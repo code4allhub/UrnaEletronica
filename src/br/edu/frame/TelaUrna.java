@@ -26,7 +26,24 @@ public class TelaUrna extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jProgressBar1 = new javax.swing.JProgressBar();
+        lblFotoPrefeito = new javax.swing.JLabel();
+        panelPrefeito = new javax.swing.JPanel();
+        lblSepPrefeito = new javax.swing.JLabel();
+        lblFotoVice = new javax.swing.JLabel();
+        panelVice = new javax.swing.JPanel();
+        lblSepVice = new javax.swing.JLabel();
+        lblPrefeito = new javax.swing.JLabel();
+        lblViceCandidato = new javax.swing.JLabel();
+        lblPartidoCandidato = new javax.swing.JLabel();
+        lblNumeroCandidato = new javax.swing.JLabel();
+        lblNomeCandidato = new javax.swing.JLabel();
+        panelNum2 = new javax.swing.JPanel();
+        lblNum2 = new javax.swing.JLabel();
+        panelNum1 = new javax.swing.JPanel();
+        lblNum1 = new javax.swing.JLabel();
+        lblConfirma = new javax.swing.JLabel();
+        lblCorrige = new javax.swing.JLabel();
+        panelSeparador = new javax.swing.JPanel();
         btn1 = new javax.swing.JButton();
         btn2 = new javax.swing.JButton();
         btn3 = new javax.swing.JButton();
@@ -40,10 +57,154 @@ public class TelaUrna extends javax.swing.JFrame {
         btnBranco = new javax.swing.JButton();
         btnConfirma = new javax.swing.JButton();
         btnCorrige = new javax.swing.JButton();
-        jLabel1 = new javax.swing.JLabel();
+        figmaUrna = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        lblFotoPrefeito.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/edu/images/fotoCapitaoWagner.jpg"))); // NOI18N
+        getContentPane().add(lblFotoPrefeito, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 80, -1, 160));
+
+        panelPrefeito.setBackground(new java.awt.Color(255, 255, 255));
+        panelPrefeito.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(0, 0, 0), null));
+
+        lblSepPrefeito.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        lblSepPrefeito.setForeground(new java.awt.Color(0, 0, 0));
+        lblSepPrefeito.setText("Prefeito");
+
+        javax.swing.GroupLayout panelPrefeitoLayout = new javax.swing.GroupLayout(panelPrefeito);
+        panelPrefeito.setLayout(panelPrefeitoLayout);
+        panelPrefeitoLayout.setHorizontalGroup(
+            panelPrefeitoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelPrefeitoLayout.createSequentialGroup()
+                .addGap(52, 52, 52)
+                .addComponent(lblSepPrefeito)
+                .addContainerGap(51, Short.MAX_VALUE))
+        );
+        panelPrefeitoLayout.setVerticalGroup(
+            panelPrefeitoLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelPrefeitoLayout.createSequentialGroup()
+                .addComponent(lblSepPrefeito)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+
+        getContentPane().add(panelPrefeito, new org.netbeans.lib.awtextra.AbsoluteConstraints(380, 240, 190, 30));
+
+        lblFotoVice.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/edu/images/fotoEdileneSantos.jpg"))); // NOI18N
+        getContentPane().add(lblFotoVice, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 290, -1, 160));
+
+        panelVice.setBackground(new java.awt.Color(255, 255, 255));
+        panelVice.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(0, 0, 0), null));
+
+        lblSepVice.setFont(new java.awt.Font("Segoe UI", 0, 22)); // NOI18N
+        lblSepVice.setForeground(new java.awt.Color(0, 0, 0));
+        lblSepVice.setText("Vice-Prefeito");
+
+        javax.swing.GroupLayout panelViceLayout = new javax.swing.GroupLayout(panelVice);
+        panelVice.setLayout(panelViceLayout);
+        panelViceLayout.setHorizontalGroup(
+            panelViceLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelViceLayout.createSequentialGroup()
+                .addGap(14, 14, 14)
+                .addComponent(lblSepVice)
+                .addContainerGap(16, Short.MAX_VALUE))
+        );
+        panelViceLayout.setVerticalGroup(
+            panelViceLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, panelViceLayout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(lblSepVice))
+        );
+
+        getContentPane().add(panelVice, new org.netbeans.lib.awtextra.AbsoluteConstraints(410, 450, 160, 30));
+
+        lblPrefeito.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
+        lblPrefeito.setForeground(new java.awt.Color(0, 0, 0));
+        lblPrefeito.setText("PREFEITO(A)");
+        getContentPane().add(lblPrefeito, new org.netbeans.lib.awtextra.AbsoluteConstraints(130, 80, 200, -1));
+
+        lblViceCandidato.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
+        lblViceCandidato.setForeground(new java.awt.Color(0, 0, 0));
+        lblViceCandidato.setText("Vice:");
+        getContentPane().add(lblViceCandidato, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 380, -1, -1));
+
+        lblPartidoCandidato.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
+        lblPartidoCandidato.setForeground(new java.awt.Color(0, 0, 0));
+        lblPartidoCandidato.setText("Partido:");
+        getContentPane().add(lblPartidoCandidato, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 320, -1, -1));
+
+        lblNumeroCandidato.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
+        lblNumeroCandidato.setForeground(new java.awt.Color(0, 0, 0));
+        lblNumeroCandidato.setText("Número:");
+        getContentPane().add(lblNumeroCandidato, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 180, -1, -1));
+
+        lblNomeCandidato.setFont(new java.awt.Font("Segoe UI", 0, 36)); // NOI18N
+        lblNomeCandidato.setForeground(new java.awt.Color(0, 0, 0));
+        lblNomeCandidato.setText("Nome:");
+        getContentPane().add(lblNomeCandidato, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 260, -1, -1));
+
+        panelNum2.setBackground(new java.awt.Color(255, 255, 255));
+        panelNum2.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(0, 0, 0), null));
+
+        lblNum2.setFont(new java.awt.Font("Segoe UI", 0, 60)); // NOI18N
+        lblNum2.setForeground(new java.awt.Color(0, 0, 0));
+
+        javax.swing.GroupLayout panelNum2Layout = new javax.swing.GroupLayout(panelNum2);
+        panelNum2.setLayout(panelNum2Layout);
+        panelNum2Layout.setHorizontalGroup(
+            panelNum2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelNum2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(lblNum2, javax.swing.GroupLayout.DEFAULT_SIZE, 44, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        panelNum2Layout.setVerticalGroup(
+            panelNum2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelNum2Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(lblNum2, javax.swing.GroupLayout.PREFERRED_SIZE, 65, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        getContentPane().add(panelNum2, new org.netbeans.lib.awtextra.AbsoluteConstraints(270, 170, 60, 80));
+
+        panelNum1.setBackground(new java.awt.Color(255, 255, 255));
+        panelNum1.setBorder(javax.swing.BorderFactory.createEtchedBorder(new java.awt.Color(0, 0, 0), null));
+
+        lblNum1.setFont(new java.awt.Font("Segoe UI", 0, 60)); // NOI18N
+        lblNum1.setForeground(new java.awt.Color(0, 0, 0));
+
+        javax.swing.GroupLayout panelNum1Layout = new javax.swing.GroupLayout(panelNum1);
+        panelNum1.setLayout(panelNum1Layout);
+        panelNum1Layout.setHorizontalGroup(
+            panelNum1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelNum1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(lblNum1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        panelNum1Layout.setVerticalGroup(
+            panelNum1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(panelNum1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(lblNum1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGap(76, 76, 76))
+        );
+
+        getContentPane().add(panelNum1, new org.netbeans.lib.awtextra.AbsoluteConstraints(200, 170, 60, 80));
+
+        lblConfirma.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        lblConfirma.setForeground(new java.awt.Color(0, 0, 0));
+        lblConfirma.setText("VERDE para confirmar este voto ");
+        getContentPane().add(lblConfirma, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 440, -1, -1));
+
+        lblCorrige.setFont(new java.awt.Font("Segoe UI", 0, 24)); // NOI18N
+        lblCorrige.setForeground(new java.awt.Color(0, 0, 0));
+        lblCorrige.setText("VERMELHO para REINICIAR este voto");
+        getContentPane().add(lblCorrige, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 470, -1, 40));
+
+        panelSeparador.setBackground(new java.awt.Color(0, 0, 0));
+        getContentPane().add(panelSeparador, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 434, 520, 4));
 
         btn1.setContentAreaFilled(false);
         btn1.addActionListener(new java.awt.event.ActionListener() {
@@ -149,8 +310,8 @@ public class TelaUrna extends javax.swing.JFrame {
         });
         getContentPane().add(btnCorrige, new org.netbeans.lib.awtextra.AbsoluteConstraints(760, 460, 90, 50));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/edu/images/urnaPoo.jpg"))); // NOI18N
-        getContentPane().add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
+        figmaUrna.setIcon(new javax.swing.ImageIcon(getClass().getResource("/br/edu/images/urnaPoo.jpg"))); // NOI18N
+        getContentPane().add(figmaUrna, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, -1));
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -256,7 +417,24 @@ public class TelaUrna extends javax.swing.JFrame {
     private javax.swing.JButton btnBranco;
     private javax.swing.JButton btnConfirma;
     private javax.swing.JButton btnCorrige;
-    private javax.swing.JLabel jLabel1;
-    private javax.swing.JProgressBar jProgressBar1;
+    private javax.swing.JLabel figmaUrna;
+    private javax.swing.JLabel lblConfirma;
+    private javax.swing.JLabel lblCorrige;
+    private javax.swing.JLabel lblFotoPrefeito;
+    private javax.swing.JLabel lblFotoVice;
+    private javax.swing.JLabel lblNomeCandidato;
+    private javax.swing.JLabel lblNum1;
+    private javax.swing.JLabel lblNum2;
+    private javax.swing.JLabel lblNumeroCandidato;
+    private javax.swing.JLabel lblPartidoCandidato;
+    private javax.swing.JLabel lblPrefeito;
+    private javax.swing.JLabel lblSepPrefeito;
+    private javax.swing.JLabel lblSepVice;
+    private javax.swing.JLabel lblViceCandidato;
+    private javax.swing.JPanel panelNum1;
+    private javax.swing.JPanel panelNum2;
+    private javax.swing.JPanel panelPrefeito;
+    private javax.swing.JPanel panelSeparador;
+    private javax.swing.JPanel panelVice;
     // End of variables declaration//GEN-END:variables
 }
