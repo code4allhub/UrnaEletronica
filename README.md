@@ -13,6 +13,6 @@
 ## Sobre o Repositório
 #### Contém neste repositório o projeto em Java da Urna Eletrônica desenvolvida pela code4all.
 
-#### Rsse projeto didático é o trabalho de conclusão da disciplina de Programação Orientada a Objeto, no semestre 2024.1, lecionada no Instituto Federal do Ceará. 
+#### Esse projeto didático é o trabalho de conclusão da disciplina de Programação Orientada a Objeto, no semestre 2024.1, lecionada no Instituto Federal do Ceará. 
 
 #### Professor da disciplina: [Roger Sarmento.](https://github.com/rogermsarmento)
