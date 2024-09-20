@@ -4,11 +4,16 @@
  */
 package br.edu.Principal;
 
+import br.edu.model.Candidato;
+
+
 /**
  *
  * @author r1skin
  */
-public class Principal {
-    public static void main(String[] args){
-        
-}
+//public class Principal {
+//    public static void main(String[] args){
+//        
+//    }
+//   
+//}

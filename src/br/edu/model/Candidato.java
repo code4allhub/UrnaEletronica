@@ -10,8 +10,19 @@ package br.edu.model;
  */
 public class Candidato {
     
-    String nome, partido, vice;
-    int numero, votos;
+    public String nome, partido, vice, numero, fotoprefeito, fotovice;
+    public int votos;
+
+    public Candidato(String nome, String partido, String vice, String numero,  String fotoprefeito, String fotovice) {
+        this.nome = nome;
+        this.partido = partido;
+        this.vice = vice;
+        this.numero = numero;
+        this.votos = 0;
+        this.fotoprefeito = fotoprefeito;
+        this.fotovice = fotovice;
+    }
+    
     
     
     
