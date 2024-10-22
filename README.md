@@ -11,6 +11,7 @@
 
 ## Sobre o Repositório
 #### Contém neste repositório o projeto em Java da Urna Eletrônica desenvolvida pela code4all.
+#### A urna simboliza a democracia, o que faz sentido visto nossa visão da empresa. Nesse 
 
 #### Esse projeto didático é o trabalho de conclusão da disciplina de Programação Orientada a Objeto, no semestre 2024.1, lecionada no Instituto Federal do Ceará. 
 
