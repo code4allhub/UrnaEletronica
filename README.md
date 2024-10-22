@@ -16,4 +16,4 @@
 #### Esse projeto didático é o trabalho de conclusão da disciplina de Programação Orientada a Objeto, no semestre 2024.1, lecionada no Instituto Federal do Ceará. 
 
 #### Professor da disciplina: [Roger Sarmento.](https://github.com/rogermsarmento)
-#### [Clique aqui] para ver a apresentação. (https://docs.google.com/presentation/d/1_IJUq_rgpYdgkJiDgp53Zemry_1KiFQe_q_JkM3dGCs/edit)
+#### [Clique aqui](https://docs.google.com/presentation/d/1_IJUq_rgpYdgkJiDgp53Zemry_1KiFQe_q_JkM3dGCs/edit) para ver a apresentação. 
