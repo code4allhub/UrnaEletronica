@@ -6,7 +6,6 @@
 </h1>
 
 ## Integrantes do projeto:
-* [Miguel Angelo](https://github.com/miangelw)
 * [João Marcelo](https://github.com/jmcolombini)
 * [Raúl Simioni](https://github.com/raulscarvalho)
 
